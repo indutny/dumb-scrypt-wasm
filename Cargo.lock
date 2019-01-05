@@ -19,7 +19,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "dumb-scrypt-wasm"
-version = "1.0.0"
+version = "1.0.1"
 dependencies = [
  "cfg-if 0.1.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "dumb-crypto 3.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
