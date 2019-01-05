@@ -14,7 +14,7 @@ dependencies = [
 
 [[package]]
 name = "dumb-crypto"
-version = "2.0.0"
+version = "3.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
@@ -22,7 +22,7 @@ name = "dumb-scrypt-wasm"
 version = "1.0.0"
 dependencies = [
  "cfg-if 0.1.6 (registry+https://github.com/rust-lang/crates.io-index)",
- "dumb-crypto 2.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "dumb-crypto 3.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "wasm-bindgen 0.2.29 (registry+https://github.com/rust-lang/crates.io-index)",
  "wasm-bindgen-test 0.2.29 (registry+https://github.com/rust-lang/crates.io-index)",
  "wee_alloc 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -227,7 +227,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [metadata]
 "checksum cfg-if 0.1.6 (registry+https://github.com/rust-lang/crates.io-index)" = "082bb9b28e00d3c9d39cc03e64ce4cea0f1bb9b3fde493f0cbc008472d22bdf4"
 "checksum console_error_panic_hook 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)" = "6c5dd2c094474ec60a6acaf31780af270275e3153bafff2db5995b715295762e"
-"checksum dumb-crypto 2.0.0 (registry+https://github.com/rust-lang/crates.io-index)" = "d9e49669b736e36cbf3fae6f5a93ebe5ea3036f0f19b2ff2f6a904b57c58a14f"
+"checksum dumb-crypto 3.0.0 (registry+https://github.com/rust-lang/crates.io-index)" = "e3ec33d68fec906a086e21a53414a5892eb1d0b51f149e8a1748e574a93284d1"
 "checksum futures 0.1.25 (registry+https://github.com/rust-lang/crates.io-index)" = "49e7653e374fe0d0c12de4250f0bdb60680b8c80eed558c5c7538eec9c89e21b"
 "checksum js-sys 0.3.6 (registry+https://github.com/rust-lang/crates.io-index)" = "58cfec35fd4a94f3cf357d5cb7da71c71cd52720c2f2a7320090a8db5f06f655"
 "checksum lazy_static 1.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "a374c89b9db55895453a74c1e38861d9deec0b01b405a82516e9d5de4820dea1"

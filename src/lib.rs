@@ -15,13 +15,20 @@ cfg_if! {
 }
 
 #[wasm_bindgen]
-pub fn derive(r: usize, n: usize, p: usize, passphrase: &str, salt: &str,
-              out_size: usize) -> Vec<u8> {
+pub fn derive(
+    r: usize,
+    n: usize,
+    p: usize,
+    passphrase: &str,
+    salt: &str,
+    out_size: usize,
+) -> Vec<u8> {
     let mut out: Vec<u8> = vec![0; out_size];
 
-    let s = dumb_crypto::scrypt::Scrypt::new(r, n, p).unwrap();
+    let s = dumb_crypto::scrypt::Scrypt::new(r, n, p);
 
-    s.derive(passphrase.as_bytes(), salt.as_bytes(), &mut out);
+    s.derive(passphrase.as_bytes(), salt.as_bytes(), &mut out)
+        .unwrap();
 
     out
 }
